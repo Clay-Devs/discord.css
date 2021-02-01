@@ -24,7 +24,7 @@
 
 @media (prefers-color-scheme: dark) {
 :root {
-  --background-body: #202b38;
+  --background-body: #36393f;
   --background: #161f27;
   --background-alt: #1a242f;
   --selection: #1c76c5;
@@ -149,6 +149,7 @@ button {
 @media (prefers-color-scheme: dark) {
 
   button {
+    background-color: #7289DA
   transition:
     background-color 0.1s linear,
     border-color 0.1s linear,
@@ -1498,4 +1499,7 @@ body > footer {
   }
 }
 
+button {
+  background-color: #7289DA
+}
 /*# sourceMappingURL=water.css.map */
